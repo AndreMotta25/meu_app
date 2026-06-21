@@ -36,8 +36,8 @@ workflows:
         recipients:
           - laboremecanica@gmail.com
         notify:
-          - on_build_success
-          - on_build_failure
+          success: true
+          failure: true
       # google_play:               # Descomente para publicar na Play Store
       #   credentials: $GPLAY_CREDENTIALS
       #   track: internal
@@ -77,8 +77,8 @@ workflows:
         recipients:
           - laboremecanica@gmail.com
         notify:
-          - on_build_success
-          - on_build_failure
+          success: true
+          failure: true
       # app_store_connect:          # Descomente para publicar na App Store
       #   apple_id: $APPLE_ID
       #   password: $APPLE_APP_SPECIFIC_PASSWORD
